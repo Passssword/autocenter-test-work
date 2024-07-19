@@ -1,0 +1,61 @@
+.auto_from_jp_block {
+	padding: 120px 0px;
+}
+.cars_jp_block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+.car_card {
+    border-radius: 20px;
+    background: var(--color6);
+    padding: 20px;
+    width: 411px;
+}
+.card_1 {grid-column: 1/2;}
+.card_2 {grid-column: 2/3;}
+.card_3 {grid-column: 3/4;}
+.card_4 {grid-column: 4/5;}
+
+.car_card_img_block {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 371px;
+    height: 300px;
+}
+.car_card img {
+    position: absolute;
+    left: -50px;
+    height: 305px;
+}
+
+.carjp_card_autoname {
+    margin: 24px 0px 12px 0px;
+    font-family: "Inter-Bold";
+    font-weight: 700;
+    font-size: 24px;
+}
+.carjp_card_autoinfo {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color3);
+}
+.cars_jp_block_priceandbutton {
+    display: flex;
+    margin-top: 12px;
+}
+.carjp_card_price {
+    display: flex;
+    font-family: "Inter-Bold";
+    font-weight: 700;
+    font-size: 18px;
+    flex-grow: 1;
+    align-items: center;
+}
+.carjp_block_viewall {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px 120px 0px;
+}

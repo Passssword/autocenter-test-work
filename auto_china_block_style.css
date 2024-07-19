@@ -1,0 +1,23 @@
+.auto_from_china_block {
+	padding-bottom: 120px;
+}
+.cars_china_block {display: flex;}
+.cars_china_card {
+	width: 834px;
+	height: 297px;
+	border-radius: 20px;
+	padding: 40px;
+	position: relative;
+}
+.card_china_1 {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)), url(image/cars_china_bg1.jpg);
+	background-position: -100px -250px;
+	background-size: 140%;
+}
+.card_china_2 {
+	background: linear-gradient(45deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)), url(image/cars_china_bg2.png);
+	background-position: -100px -200px;
+	background-size: 130%
+}
+.cars_china_caption {margin-bottom: 12px;}
+.cars_china_subtext {margin-bottom: 75px;}

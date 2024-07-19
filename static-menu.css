@@ -1,0 +1,48 @@
+.menu {
+	display: inline-block; /* Ширина блока устанавливается по ширине содержимого контента.*/
+	position: relative;
+	margin: 20px 0px 0px 20px;
+	overflow: visible;
+  }
+  .menu a {
+	text-decoration: none;
+	font: 100% "Inter";
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--color5);
+  }
+  
+  .menu li {
+	position: relative;
+	list-style: none;
+  }
+  .menu_list {
+	display: flex;
+	padding: 0;
+  }
+  .menu_list>li {
+	position: relative;
+	margin: 0 15px 0 0;
+	padding: 0;
+  }
+  .sub_menu_list {
+	display: none;
+	background: var(--color2);
+	border-radius: 12px;
+	padding: 4px 24px 16px 24px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	box-shadow: 6px 7px 17px 0px rgba(0,0,0,0.12);
+  }
+  .sub_menu_list>li {
+	margin-top: 12px;
+  }
+  
+  /* События Hover */
+  .menu a:hover {
+	color: var(--colorLink);
+  }
+  .menu_list>li:hover .sub_menu_list {
+	display: block;
+  }

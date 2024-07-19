@@ -1,0 +1,40 @@
+.about_us_block {
+	display: flex;
+	border-radius: 40px;
+	height: 355px;
+	margin-bottom: 85px;
+	padding: 60px 120px 100px 120px;
+	background: linear-gradient(45deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .7), rgba(0, 0, 0, .2)), url(image/aboutus_bg.png);
+	position: relative;
+}
+.aboutus_block_contener {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+.about_us_textblock {grid-column: 1/6;}
+.about_us_autocenter_block {grid-column: 6/7;}
+.aboutus_caption {
+	padding-bottom: 16px;
+}
+.about_us_icons_blockcontener {
+	grid-column: 1/7;
+}
+.aboutus_icons_block {
+	display: flex;
+/*	position: absolute;*/
+	border-radius: 20px;
+	margin-top: 30px;
+	padding: 24px 20px;
+	background: var(--color2);
+	bottom: -100px;
+/*	left: 5%;*/
+}
+.aboutus_icons_block div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Inter";
+	font-size: 14px;
+	margin: 8px;
+}
+.aboutus_icons_block img {width: 50px}
