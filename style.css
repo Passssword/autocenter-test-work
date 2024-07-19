@@ -15,6 +15,7 @@
 :root {
 	--baner_bg: #191919;
 	--colorLink: #EB1C24;
+	--colorLinkBlue: #1673FE;
 	--colorLinkHover: #D90008;
 	--colorApplicationButtonBG: #303030;
 	--input_bg: #EBEBEB;
@@ -207,6 +208,21 @@
 	color: var(--color2);
 }
 .link_1:hover {color: var(--colorLink);}
+.link_2 {
+	text-decoration: none;
+	font-family: "Inter";
+	font-size: 14px;
+	color: var(--colorLinkBlue);
+}
+.link_2:hover {color: var(--colorLink);}
+.link_3 {
+	text-decoration: none;
+	font-family: "Inter";
+	font-size: 14px;
+	color: var(--color3);
+	margin-right: 12px;
+}
+.link_3:hover {color: var(--colorLink);}
 /*---------------------------*/
 
 .general_button {

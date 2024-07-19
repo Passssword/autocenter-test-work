@@ -1,0 +1,7 @@
+footer {
+	padding: 40px 120px 0px 120px;
+	background: var(--color5);
+}
+.footer_block1 {display: flex;}
+.autocenter_logo {width: 110px}
+.footer_aboutus_wrapper {flex-grow: 1}
